@@ -11,8 +11,7 @@
 
   overflow: hidden;
   transform: translate3d(var(--move-x), var(--move-y), 0); // для изображения вместо курсора
-  //transition: transform var(--transition-cursor), height 1s ease; // transform var(--transition-cursor) тормозит в chrome
-  transition: height 1s ease;
+  transition: transform var(--transition-cursor), height 1s ease;
   z-index: -1;
   will-change: transform;
 }
